@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6A472DF5-5381-4E1B-A133-543D825625F9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>sys_agencia2023.My.MyApplication</StartupObject>
+    <RootNamespace>sys_agencia2023</RootNamespace>
+    <AssemblyName>sys_agencia2023</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>sys_agencia2023.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>sys_agencia2023.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="agencia_2023DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>agencia_2023DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAutos.Designer.vb">
+      <DependentUpon>frmAutos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAutos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClientes.Designer.vb">
+      <DependentUpon>frmClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmpresa.Designer.vb">
+      <DependentUpon>frmEmpresa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmpresa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImprimirAutos.Designer.vb">
+      <DependentUpon>frmImprimirAutos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmImprimirAutos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImprimirClientes.Designer.vb">
+      <DependentUpon>frmImprimirClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmImprimirClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImprimirVentas.Designer.vb">
+      <DependentUpon>frmImprimirVentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmImprimirVentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImprimirVentasFecha.Designer.vb">
+      <DependentUpon>frmImprimirVentasFecha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmImprimirVentasFecha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLocalidades.Designer.vb">
+      <DependentUpon>frmLocalidades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLocalidades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.vb">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVendedores.Designer.vb">
+      <DependentUpon>frmVendedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVendedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVentas.Designer.vb">
+      <DependentUpon>frmVentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVentasFecha.Designer.vb">
+      <DependentUpon>frmVentasFecha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVentasFecha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="variables.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAutos.resx">
+      <DependentUpon>frmAutos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClientes.resx">
+      <DependentUpon>frmClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmpresa.resx">
+      <DependentUpon>frmEmpresa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImprimirAutos.resx">
+      <DependentUpon>frmImprimirAutos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImprimirClientes.resx">
+      <DependentUpon>frmImprimirClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImprimirVentas.resx">
+      <DependentUpon>frmImprimirVentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImprimirVentasFecha.resx">
+      <DependentUpon>frmImprimirVentasFecha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLocalidades.resx">
+      <DependentUpon>frmLocalidades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVendedores.resx">
+      <DependentUpon>frmVendedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVentas.resx">
+      <DependentUpon>frmVentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVentasFecha.resx">
+      <DependentUpon>frmVentasFecha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptAutos.rdlc" />
+    <EmbeddedResource Include="rptClientes.rdlc" />
+    <EmbeddedResource Include="rptConsultadeVentasporFecha.rdlc" />
+    <EmbeddedResource Include="rptVentas.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="agencia_2023DataSet.xsc">
+      <DependentUpon>agencia_2023DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="agencia_2023DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>agencia_2023DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="agencia_2023DataSet.xss">
+      <DependentUpon>agencia_2023DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\go_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_login %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auto_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venta_menuPrincipal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\localidades_menuPrincipal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auto_menuPrincipal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes_menuPrincipal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vendedores_menuPrincipal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empresa_menuPrincipal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\impresora_menuPrincipal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auto_menuPrincipal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ventas_menuPrincipal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\autos_menuPrincipal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\localidades_menuPrincipal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes_menuPrincipal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vendedores_menuPrincipal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empresa_menuPrincipal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imprimir_menuPrincipal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_ventas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_ventas1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auto_menuPrincipal2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ventasporFecha_menuPrincipal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_ventas2.png" />
+    <None Include="Resources\ventasporFecha_menuPrincipal1.png" />
+    <None Include="Resources\add_ventas3.png" />
+    <None Include="Resources\foto_login.png" />
+    <None Include="Resources\foto_menuPrincipal.png" />
+    <None Include="Resources\ventasporFecha_menuPrincipal2.png" />
+    <Content Include="SqlServerTypes\Loader.cs" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
