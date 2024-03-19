@@ -1,0 +1,381 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+sys_agencia2023
+</name>
+</assembly>
+<members>
+<member name="T:sys_agencia2023.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.add_ventas">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.add_ventas1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.add_ventas2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.add_ventas3">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.auto_login">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.auto_menuPrincipal">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.auto_menuPrincipal1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.auto_menuPrincipal2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.autos_menuPrincipal">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.clientes_menuPrincipal">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.clientes_menuPrincipal1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.empresa_menuPrincipal">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.empresa_menuPrincipal1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.foto_login">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.foto_menuPrincipal">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.go_login">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.impresora_menuPrincipal">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.imprimir_menuPrincipal">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.localidades_menuPrincipal">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.localidades_menuPrincipal1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.password_login">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.password_login__2_">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.plus_icon">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.vendedores_menuPrincipal">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.vendedores_menuPrincipal1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.venta_menuPrincipal">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.ventas_menuPrincipal">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.ventasporFecha_menuPrincipal">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.ventasporFecha_menuPrincipal1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_agencia2023.My.Resources.Resources.ventasporFecha_menuPrincipal2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.autosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.clientesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.empresaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.localidadesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.usuariosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.vendedoresDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.ventasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.spu_ventas_fechasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.autosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.clientesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.empresaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.localidadesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.usuariosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.vendedoresRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.ventasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.spu_ventas_fechasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.autosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.clientesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.empresaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.localidadesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.usuariosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.vendedoresRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.ventasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSet.spu_ventas_fechasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSetTableAdapters.autosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSetTableAdapters.clientesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSetTableAdapters.empresaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSetTableAdapters.localidadesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSetTableAdapters.usuariosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSetTableAdapters.vendedoresTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSetTableAdapters.ventasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSetTableAdapters.spu_ventas_fechasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:sys_agencia2023.agencia_2023DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(sys_agencia2023.agencia_2023DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:sys_agencia2023.agencia_2023DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(sys_agencia2023.agencia_2023DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:sys_agencia2023.agencia_2023DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(sys_agencia2023.agencia_2023DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:sys_agencia2023.agencia_2023DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:sys_agencia2023.agencia_2023DataSetTableAdapters.TableAdapterManager.UpdateAll(sys_agencia2023.agencia_2023DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:sys_agencia2023.agencia_2023DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
